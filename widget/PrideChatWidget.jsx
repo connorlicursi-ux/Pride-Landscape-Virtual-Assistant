@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 
-const PROXY_URL = "https://your-vercel-project.vercel.app/api/chat"; // replace after deploy
+const PROXY_URL = "https://pride-landscape-virtual-assistant.vercel.app/api/chat";
 const MAX_SESSION_MESSAGES = 10; // per session limit
 
 const PrideChatWidget = () => {
